@@ -27,6 +27,7 @@ import {
     pggo,
     yudio,
     threejs,
+    yuweather
 } from "../assets";
 
 export const navLinks = [
@@ -193,7 +194,7 @@ const projects = [
     {
         name: "Millennium Chemi Pharma",
         description:
-            "Web-based platform that allows users to monitor, set up, and manage products, productions, chemicals, sensors, equipments, etc. It reduces the amount of daily work for the workers in the organisation (client). It is an industry project.",
+            "Industry Project (PWA) Millennium Chemi Pharma. The app is for monitoring and managing the daily tasks and productions of chemical products for the organisation. It processes huge amount of data from frontend to backend, a lot of data manipulation in the frontend for creating and managing productions and batches.",
         tags: [
             {
                 name: "react",
@@ -210,27 +211,29 @@ const projects = [
         ],
         image: millenium,
         source_code_link: "https://github.com/yubaraj-g",
+        hosted_link: ""
     },
     {
-        name: "PG-GO: PG Booking",
+        name: "YuWeather",
         description:
-            "Web application that enables users to search for PGs, view estimated price ranges for PGs, and locate available PGs based on their current location.",
+            "A Weather App that uses GeoLocation API and fetches weather data depending on the current location of the user which uses OpenWeatherMap API. It has search feature to search any city and provide weather information of that city. It also has a unique feature that changes the background picture to the searched city's landscape using Unsplash API.",
         tags: [
             {
-                name: "Tailwindcss",
+                name: "JavaScript (ES6)",
                 color: "blue-text-gradient",
             },
             {
-                name: "PHP",
+                name: "Webpack",
                 color: "green-text-gradient",
             },
             {
-                name: "SQL",
+                name: "Rest API",
                 color: "pink-text-gradient",
             },
         ],
-        image: pggo,
-        source_code_link: "https://github.com/yubaraj-g",
+        image: yuweather,
+        source_code_link: "https://github.com/yubaraj-g/YuWeather",
+        hosted_link: "https://yuweather.netlify.app"
     },
     {
         name: "Yudio: Music Player App",

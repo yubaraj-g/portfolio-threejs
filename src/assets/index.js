@@ -35,6 +35,7 @@ import tripguide from "./tripguide.png";
 import millenium from "./millenium.png"
 import pggo from "./pggo.png"
 import yudio from "./yudio.png"
+import yuweather from "./yuweather.png"
 
 export {
   logo,
@@ -70,5 +71,6 @@ export {
   tripguide,
   millenium,
   pggo,
-  yudio
+  yudio,
+  yuweather
 };
